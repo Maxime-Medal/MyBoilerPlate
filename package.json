@@ -2,16 +2,15 @@
   "name": "myboilerplate",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite App.jsx",
+    "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start:server": "nodemon src/app.js",
+    "start:server": "nodemon src/BackEnd/app.js",
     "lint": "eslint --fix ."
   },
   "dependencies": {
     "@prisma/client": "^3.8.1",
     "express": "^4.17.2",
-    "mysql2": "^2.3.3",
     "nodemon": "^2.0.15",
     "prisma": "^3.8.1",
     "react": "^17.0.2",

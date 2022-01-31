@@ -2,10 +2,10 @@
   "name": "myboilerplate",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite App.jsx",
     "build": "vite build",
     "preview": "vite preview",
-    "start:serveur": "nodemon app.jsx",
+    "start:server": "nodemon src/app.js",
     "lint": "eslint --fix ."
   },
   "dependencies": {
@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
+    "dotenv": "^15.0.0",
     "eslint": "^8.7.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
